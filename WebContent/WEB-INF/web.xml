@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <servlet>
+  <servlet-name>S1</servlet-name>
+  <servlet-class>mypack.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S1</servlet-name>
+  <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>S2</servlet-name>
+  <servlet-class>mypack.Portal</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S2</servlet-name>
+  <url-pattern>/portal</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <servlet>
+  <servlet-name>S3</servlet-name>
+  <servlet-class>mypack.Forget</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S3</servlet-name>
+  <url-pattern>/forgetp</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+  <servlet-name>S4</servlet-name>
+  <servlet-class>mypack.Recover</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S4</servlet-name>
+  <url-pattern>/recover</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+  <servlet-name>S5</servlet-name>
+  <servlet-class>mypack.TrainAdd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S5</servlet-name>
+  <url-pattern>/addt</url-pattern>
+  </servlet-mapping> 
+  
+  
+   <servlet>
+  <servlet-name>S6</servlet-name>
+  <servlet-class>mypack.RemoveTrain</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S6</servlet-name>
+  <url-pattern>/rmvt</url-pattern>
+  </servlet-mapping> 
+  
+  
+  <servlet>
+  <servlet-name>S7</servlet-name>
+  <servlet-class>mypack.TrainFind</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S7</servlet-name>
+  <url-pattern>/trfnd</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+  <servlet-name>S8</servlet-name>
+  <servlet-class>mypack.TrainMenu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S8</servlet-name>
+  <url-pattern>/trmnu</url-pattern>
+  </servlet-mapping> 
+  
+  
+   <servlet>
+  <servlet-name>S9</servlet-name>
+  <servlet-class>mypack.Seatavail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S9</servlet-name>
+  <url-pattern>/seatavail</url-pattern>
+  </servlet-mapping> 
+  
+  
+  
+  <servlet>
+  <servlet-name>S10</servlet-name>
+  <servlet-class>mypack.Passengerlist</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S10</servlet-name>
+  <url-pattern>/paslis</url-pattern>
+  </servlet-mapping> 
+  
+  
+  <servlet>
+  <servlet-name>S11</servlet-name>
+  <servlet-class>mypack.CancleTicket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S11</servlet-name>
+  <url-pattern>/cancle</url-pattern>
+  </servlet-mapping> 
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>reservation1.html</welcome-file>
+      </welcome-file-list>
+</web-app>
